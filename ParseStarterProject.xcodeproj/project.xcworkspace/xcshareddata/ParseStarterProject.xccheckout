@@ -10,31 +10,63 @@
 	<string>ParseStarterProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>5111E7280C225502B7EB0BCEE254A12D4C4E78EE</key>
+		<string>https://github.com/john-dickinson/MyBankApp.git</string>
 		<key>89A54BC51D647954CB1776B7F822AF0B0DF45AA0</key>
+		<string>https://github.com/john-dickinson/SI363.git</string>
+		<key>BDC94F31930D037BFFD2E07B67A1F4E962174893</key>
 		<string>https://github.com/john-dickinson/SI363.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>parse-starter-project-1.6.2/ParseSwiftStarterProject/ParseStarterProject.xcodeproj</string>
+	<string>ParseStarterProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>5111E7280C225502B7EB0BCEE254A12D4C4E78EE</key>
+		<string>../..</string>
 		<key>89A54BC51D647954CB1776B7F822AF0B0DF45AA0</key>
 		<string>../../../..</string>
+		<key>BDC94F31930D037BFFD2E07B67A1F4E962174893</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/john-dickinson/SI363.git</string>
+	<string>https://github.com/john-dickinson/MyBankApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>89A54BC51D647954CB1776B7F822AF0B0DF45AA0</string>
+	<string>5111E7280C225502B7EB0BCEE254A12D4C4E78EE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDC94F31930D037BFFD2E07B67A1F4E962174893</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDC94F31930D037BFFD2E07B67A1F4E962174893</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>89A54BC51D647954CB1776B7F822AF0B0DF45AA0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Swift</string>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5111E7280C225502B7EB0BCEE254A12D4C4E78EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParseSwiftStarterProject</string>
 		</dict>
 	</array>
 </dict>

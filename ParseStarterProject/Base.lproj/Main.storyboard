@@ -8,7 +8,7 @@
         <!--Make Transaction View Controller-->
         <scene sceneID="NcO-li-2jN">
             <objects>
-                <viewController id="yRL-42-0Eo" userLabel="Make Transaction View Controller" customClass="AccountViewController" sceneMemberID="viewController">
+                <viewController id="yRL-42-0Eo" userLabel="Make Transaction View Controller" customClass="AccountViewController" customModule="ParseStarterProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="li0-t0-ocC"/>
                         <viewControllerLayoutGuide type="bottom" id="7xY-oo-wcd"/>
@@ -74,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQB-Dd-oiW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1706" y="246"/>
+            <point key="canvasLocation" x="1898" y="217"/>
         </scene>
         <!--Transaction View Controller-->
         <scene sceneID="MG5-nb-Usd">
@@ -189,24 +189,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-LC-Sfg">
-                                <rect key="frame" x="87" y="72" width="126" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BrP-0T-geX">
-                                <rect key="frame" x="87" y="151" width="126" height="30"/>
+                                <rect key="frame" x="97" y="147" width="126" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Passwords are never shown!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qa-I5-b55">
-                                <rect key="frame" x="68" y="118" width="185" height="21"/>
+                                <rect key="frame" x="69" y="118" width="185" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPx-1y-gce">
-                                <rect key="frame" x="110" y="200" width="80" height="36"/>
+                                <rect key="frame" x="120" y="202" width="80" height="36"/>
                                 <color key="backgroundColor" red="0.86817392680000005" green="0.37663688779999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.99153645830000003" green="0.98499937400000004" blue="0.9636261397" alpha="1" colorSpace="calibratedRGB"/>
@@ -228,7 +223,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Apb-nl-xyz">
-                                <rect key="frame" x="30" y="280" width="240" height="128"/>
+                                <rect key="frame" x="40" y="271" width="240" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpg-hA-qBe">
                                 <rect key="frame" x="79" y="484" width="162" height="36"/>
@@ -241,6 +236,11 @@
                                     <action selector="choosePic:" destination="oBY-Ke-2LG" eventType="touchUpInside" id="YRq-8Y-g9E"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-LC-Sfg">
+                                <rect key="frame" x="98" y="80" width="126" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -281,11 +281,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yRL-42-0Eo" kind="push" id="bV0-oN-Oam"/>
+                                    <segue destination="yRL-42-0Eo" kind="push" id="xlB-7f-AFU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPg-IF-T6C">
-                                <rect key="frame" x="103" y="229" width="114" height="36"/>
+                                <rect key="frame" x="103" y="228" width="114" height="36"/>
                                 <color key="backgroundColor" red="0.86817392680000005" green="0.37663688779999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="View Profile">
                                     <color key="titleColor" red="0.99153645830000003" green="0.98499937400000004" blue="0.9636261397" alpha="1" colorSpace="calibratedRGB"/>
